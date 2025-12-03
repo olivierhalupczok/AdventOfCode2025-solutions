@@ -1,4 +1,4 @@
-with open("input3.txt") as f:
+with open("./day3/input3.txt") as f:
     lines = f.read().strip().split('\n')
 
 def find_maximal_joltage(lineChars: list[int], depth=1, current_accumulator=''):
